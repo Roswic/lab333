@@ -7,4 +7,7 @@ class MyPagesController < ApplicationController
 
   def about
   end
+  
+  def show
+  end
 end

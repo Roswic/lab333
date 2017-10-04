@@ -4,6 +4,8 @@
   get 'my_pages/help'
 
   get 'my_pages/about'
+  
+  get "/pages/:page" => "pages#show"
 
   resources :users
   root 'users#index'
